@@ -4,7 +4,7 @@ Data: PFAs from EPA library
 
 <Upload figures with higher resolution>
   
- ## Chemotype enrichment among Hits and non hits across different endpoints
+ ## Breaking down chemical hits calls by chemotypes
   
 X axis represents the 36 condensed chemotypes (collapsed from Toxprints_PFAS_clean.csv) and Y represents number of compounds with carrying that chemotype
 
