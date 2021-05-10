@@ -8,5 +8,5 @@ Data: PFAs from EPA library
 
 ![flowchart](https://github.com/pthunga/PFAS-analysis/blob/main/volatility.JPG)
 
-![flowchart](https://github.com/pthunga/PFAS-analysis/blob/main/morph_heatmop.JPG)
+![flowchart](https://github.com/pthunga/PFAS-analysis/blob/main/morph_heatmap.JPG)
 
