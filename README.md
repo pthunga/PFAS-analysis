@@ -1,4 +1,4 @@
-# PFAS-analysis
+# Assessing bioactivity of PFAs 
 
 Data: PFAs from EPA library
 
