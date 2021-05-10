@@ -1,4 +1,4 @@
-# Assessing bioactivity of PFAs 
+# Assessing bioactiivty of PFAs in zebrafish and evaluating effects of physiochemical properties on chemical hit calls
 
 Data: PFAs from EPA library
 
