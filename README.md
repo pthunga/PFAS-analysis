@@ -14,9 +14,9 @@
 
 
   
- ## Breaking down chemical hits calls by chemotypes
+ ### Breaking down chemical hits calls by chemotypes
   
-X axis represents the 36 condensed chemotypes (collapsed from Toxprints_PFAS_clean.csv) and Y represents number of compounds with carrying that chemotype. Full Toxprints were downloaded from EPA Chem dashboard. 
+X axis represents the 36 condensed chemotypes (collapsed from Toxprints_PFAS_clean.csv) and Y represents number of compounds with carrying that chemotype. Full Toxprints were downloaded from EPA Chem dashboard. Red and blue represent hits and non-hits in a given endpoint.
 
 Each of the 3 rectangles represent one endpoint as indicated in header
 
@@ -41,11 +41,16 @@ Example interpretation:
 
 ![flowchart](https://github.com/pthunga/PFAS-analysis/blob/main/chemotype.JPG)
 
-## Effect of volatility on chemical hit calls
+### Effect of volatility on chemical hit calls
 
-Goal: To test whether there is a significant difference in counts of volatile chemicals across endpoints. For morphology, fisher exact test p-val = 0.01 (as indicated on the plot below). That could be perhaps why we're not seeing as many bioactivite chemicals acc to morphology assay? EPR (recorded @ 24 hpf) on the other hand, is picking up more of these volatile chemicals. 
+Goal: To test whether there is a significant difference in counts of volatile chemicals across endpoints. Red and blue represent volatile vs non-volatile
+chemicals in a given endpoint.
+
+For morphology, fisher exact test p-val = 0.01 (as indicated on the plot below). That could be perhaps why we're not seeing as many bioactivite chemicals acc to morphology assay? EPR (recorded @ 24 hpf) on the other hand, is picking up more of these volatile chemicals. 
 
 ![flowchart](https://github.com/pthunga/PFAS-analysis/blob/main/volatility.JPG)
+
+
 
 
 ![flowchart](https://github.com/pthunga/PFAS-analysis/blob/main/morph_heatmap.JPG)
