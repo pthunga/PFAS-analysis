@@ -29,13 +29,13 @@ The Red dotted line within each sub figure plots the total number of hits for th
 ```
 Example interpretation: 
 
-  1. The proportion of chemotypes having S.O among morph hits is statistically higher than the proportion of non-hits carrying that 
-     chemotype. We can ballpark this by comparing the proportion of dark red region to the area on the left side of dotted line 
-     i.e (~ 12/30) , vs the dark blue region to the area on the right side of the dotted line (~20/109) 
+  1. The proportion of chemotypes having S.O among morph hits is statistically higher than the proportion of non-hits carrying 
+     that chemotype. We can ballpark this by comparing the proportion of dark red region to the area on the left side of dotted
+     line i.e (~ 12/30) , vs the dark blue region to the area on the right side of the dotted line (~20/109) 
 
-  2. The proportion of chemotypes having “chain.alkaneLinear” among non-hits in LPR is statistically higher than the proportion of
-     LPR hits carrying that chemotype. Again, we can ballpark this by comparing the proportion of dark red region to the area on 
-     the left side of dotted line i.e (~ 2/34) , vs the dark blue region to the area on the right side of the dotted 
+  2. The proportion of chemotypes having “chain.alkaneLinear” among non-hits in LPR is statistically higher than the proportion
+     of LPR hits carrying that chemotype. Again, we can ballpark this by comparing the proportion of dark red region to the area
+     on the left side of dotted line i.e (~ 2/34) , vs the dark blue region to the area on the right side of the dotted 
      line (~ 48/105) 
 ``` 
 
