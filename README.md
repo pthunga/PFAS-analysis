@@ -19,7 +19,6 @@ For morphology, fisher exact test p-val = 0.01 (as indicated on the plot below).
 
 ![flowchart](https://github.com/pthunga/PFAS-analysis/blob/main/volatility.JPG)
 
-  
  ### Breaking down chemical hits calls by chemotypes
   
 X axis represents the 36 condensed chemotypes (collapsed from Toxprints_PFAS_clean.csv) and Y represents number of compounds with carrying that chemotype. Full Toxprints were downloaded from EPA Chem dashboard. Red and blue represent hits and non-hits in a given endpoint.
@@ -30,6 +29,7 @@ Now within one rectangle, say Morph bioactivity BMD10, red = number of hits carr
 
 The Red dotted line within each sub figure plots the total number of hits for that endpoints. For instance, 34 for Morph bioactivity. Since the x axis is set to 140 (which is roughly the total number of PFAS we have), the area to the left side of the red line = Hits & area to the right side = # of non- hits. Think of CX_halide and bond.X as a "control" of sorts (all PFAs carry this chemotype)
 
+![flowchart](https://github.com/pthunga/PFAS-analysis/blob/main/chemotype.JPG)
 
 ```
 Example interpretation: 
@@ -43,9 +43,6 @@ Example interpretation:
      on the left side of dotted line i.e (~ 2/34) , vs the dark blue region to the area on the right side of the dotted 
      line (~ 48/105) 
 ``` 
-
-![flowchart](https://github.com/pthunga/PFAS-analysis/blob/main/chemotype.JPG)
-
 
 ### Fitting curves to behavioral data
 
