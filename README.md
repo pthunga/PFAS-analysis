@@ -8,8 +8,8 @@
 4. Fisher exact test to test for associations between volatility status of chemical and bioactivity across endpoints
 5. Chemotype enrichment analysis to test for associations between chemotype and bioactivity across endpoints
 
-> Path to processed files on local machine : C:/Users/pthunga/Documents/PhD/PFAS data/results/gui  
-> All the code -  C:/Users/pthunga/Documents/PhD/PFAS data/code
+> Path to processed files on local machine: C:/Users/pthunga/Documents/PhD/PFAS data/results/gui  
+> All the code:  C:/Users/pthunga/Documents/PhD/PFAS data/code
 
 
 
