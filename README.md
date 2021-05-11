@@ -1,7 +1,15 @@
 # Assessing bioactivity of PFAs in zebrafish and effects of physiochemical properties on its activity
-Data: PFAs from EPA library
 
-<Upload figures with higher resolution>
+### Data & Analysis in brief: 
+
+1. 24 hpf and 120 hpf behavior responses + morphology evaluations for ~ 140 PFAs from EPA library
+2. Censored morphology data using the 'ANY_' endpoint
+3. Screened the library for bioactivity using two metrics -  LEL and Benchmark Dose. 
+
+> Path to processed files - in C:/Users/pthunga/Documents/PhD/PFAS data/results/gui
+> All the code -  C:/Users/pthunga/Documents/PhD/PFAS data/code
+
+Upload figures with higher resolution
   
  ## Breaking down chemical hits calls by chemotypes
   
