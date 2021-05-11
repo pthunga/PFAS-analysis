@@ -11,7 +11,13 @@
 > Path to processed files on local machine: C:/Users/pthunga/Documents/PhD/PFAS data/results/gui  
 > All the code:  C:/Users/pthunga/Documents/PhD/PFAS data/code
 
+### Effect of volatility on chemical hit calls
 
+Carried out fisher exact test to assess whether there is a significant difference in counts of volatile chemicals across endpoints. Red and blue represent volatile vs non-volatile chemicals in a given endpoint.
+
+For morphology, fisher exact test p-val = 0.01 (as indicated on the plot below). That could be perhaps why we're not seeing as many hits in the morphology assay (BMD10 was used)? EPR (recorded @ 24 hpf) on the other hand, is picking up more of these volatile chemicals. 
+
+![flowchart](https://github.com/pthunga/PFAS-analysis/blob/main/volatility.JPG)
 
   
  ### Breaking down chemical hits calls by chemotypes
@@ -23,7 +29,6 @@ Each of the 3 rectangles represent one endpoint as indicated in header
 Now within one rectangle, say Morph bioactivity BMD10, red = number of hits carrying that chemotype and blue represents number of non-hits carrying that chemotype. A darker shade indicates that the difference in counts between hits on non-hits for that chemotype is statistically enriched.
 
 The Red dotted line within each sub figure plots the total number of hits for that endpoints. For instance, 34 for Morph bioactivity. Since the x axis is set to 140 (which is roughly the total number of PFAS we have), the area to the left side of the red line = Hits & area to the right side = # of non- hits. Think of CX_halide and bond.X as a "control" of sorts (all PFAs carry this chemotype)
-
 
 
 ```
@@ -41,13 +46,6 @@ Example interpretation:
 
 ![flowchart](https://github.com/pthunga/PFAS-analysis/blob/main/chemotype.JPG)
 
-### Effect of volatility on chemical hit calls
-
-Carried out fisher exact test to assess whether there is a significant difference in counts of volatile chemicals across endpoints. Red and blue represent volatile vs non-volatile chemicals in a given endpoint.
-
-For morphology, fisher exact test p-val = 0.01 (as indicated on the plot below). That could be perhaps why we're not seeing as many hits in the morphology assay (BMD10 was used)? EPR (recorded @ 24 hpf) on the other hand, is picking up more of these volatile chemicals. 
-
-![flowchart](https://github.com/pthunga/PFAS-analysis/blob/main/volatility.JPG)
 
 ### Heatmap of chemicals active in morphology with a BMR50
 
@@ -55,6 +53,8 @@ For morphology, fisher exact test p-val = 0.01 (as indicated on the plot below).
 ![flowchart](https://github.com/pthunga/PFAS-analysis/blob/main/morph_heatmap.JPG)
 
 ### Fitting curves to behavioral data
+
+Sample curvefit: 
 
 ![flowchart](https://github.com/pthunga/PFAS-analysis/blob/main/curvefit-bmd.JPG)
 
