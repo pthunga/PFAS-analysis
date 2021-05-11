@@ -54,3 +54,7 @@ For morphology, fisher exact test p-val = 0.01 (as indicated on the plot below).
 
 ![flowchart](https://github.com/pthunga/PFAS-analysis/blob/main/morph_heatmap.JPG)
 
+### Fitting curves to behavioral data
+
+
+
