@@ -36,7 +36,10 @@ Example interpretation:
 
 ## Effect of volatility on chemical hit calls
 
+Goal: To test whether there is a significant difference in counts of volatile chemicals across endpoints. For morphology, fisher exact test p-val = 0.01 (as indicated on the plot below). That could be perhaps why we're not seeing as many bioactivite chemicals acc to morphology assay? EPR (recorded @ 24 hpf) on the other hand, is picking up more of these volatile chemicals. 
+
 ![flowchart](https://github.com/pthunga/PFAS-analysis/blob/main/volatility.JPG)
+
 
 ![flowchart](https://github.com/pthunga/PFAS-analysis/blob/main/morph_heatmap.JPG)
 
