@@ -56,5 +56,5 @@ For morphology, fisher exact test p-val = 0.01 (as indicated on the plot below).
 
 ### Fitting curves to behavioral data
 
-
+![flowchart](https://github.com/pthunga/PFAS-analysis/blob/main/curvefit-bmd.JPG)
 
