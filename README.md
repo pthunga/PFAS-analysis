@@ -47,14 +47,13 @@ Example interpretation:
 ![flowchart](https://github.com/pthunga/PFAS-analysis/blob/main/chemotype.JPG)
 
 
-### Heatmap of chemicals active in morphology with a BMR50
-
-
-![flowchart](https://github.com/pthunga/PFAS-analysis/blob/main/morph_heatmap.JPG)
-
 ### Fitting curves to behavioral data
 
-Sample curvefit: 
+Sample curvefit for LPR: 
 
 ![flowchart](https://github.com/pthunga/PFAS-analysis/blob/main/curvefit-bmd.JPG)
+
+### Heatmap of chemicals active in morphology with a BMR50
+
+![flowchart](https://github.com/pthunga/PFAS-analysis/blob/main/morph_heatmap.JPG)
 
