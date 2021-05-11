@@ -4,12 +4,15 @@
 
 1. 24 hpf and 120 hpf behavior responses + morphology evaluations for ~ 140 PFAs from EPA library
 2. Censored morphology data using the 'ANY_' endpoint
-3. Screened the library for bioactivity using two metrics -  LEL and Benchmark Dose. 
+3. Screened the library for bioactivity using two metrics -  LEL and Benchmark Dose.
+4. Fisher exact test to test for associations between volatility status of chemical and bioactivity across endpoints
+5. Chemotype enrichment analysis to test for associations between chemotype and bioactivity across endpoints
 
-> Path to processed files - in C:/Users/pthunga/Documents/PhD/PFAS data/results/gui
+> Path to processed files - in C:/Users/pthunga/Documents/PhD/PFAS data/results/gui  
 > All the code -  C:/Users/pthunga/Documents/PhD/PFAS data/code
 
-Upload figures with higher resolution
+
+
   
  ## Breaking down chemical hits calls by chemotypes
   
