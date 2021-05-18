@@ -14,7 +14,7 @@
 
 ### Heatmap of bioactive chemicals
 
-For the following figure, POD was estimated using LEL for 24 hpf and 120 hpf behavior, and BMD for 120 hpf morphology.
+The following figure plots POD of compounds that were active in atleast one of assays. POD was estimated using LEL for 24 hpf and 120 hpf behavior, and BMD for 120 hpf morphology.
 
 
 ![flowchart](https://github.com/pthunga/PFAS-analysis/blob/main/global_heatmap.png)
