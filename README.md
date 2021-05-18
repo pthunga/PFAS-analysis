@@ -14,7 +14,7 @@
 
 ## Heatmap of bioactive chemicals
 
-![flowchart](https://github.com/pthunga/PFAS-analysis/blob/main/global_heatmap.PNG)
+![flowchart](https://github.com/pthunga/PFAS-analysis/blob/main/global_heatmap.png)
 
 
 
