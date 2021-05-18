@@ -29,7 +29,7 @@ BMD10 values for morphology can be found [here](https://github.com/pthunga/PFAS-
 
 BMD analysis for behavior done using BMDExpress. Sample curvefit for LPR: 
 
-![flowchart](https://github.com/pthunga/PFAS-analysis/blob/main/curvefit-bmd.JPG)
+![flowchart](https://github.com/pthunga/PFAS-analysis/blob/main/results/images/curvefit-bmd.JPG)
 
 Full list of [EPR](https://github.com/pthunga/PFAS-analysis/blob/main/results/epr_BMD.csv) and [LPR](https://github.com/pthunga/PFAS-analysis/blob/main/results/lpr_BMD.csv) hits made using BMD is present under the results tab(https://github.com/pthunga/PFAS-analysis/blob/main/results).
 
@@ -39,7 +39,7 @@ Carried out fisher exact test to assess whether there is a significant differenc
 
 For morphology, fisher exact test p-val = 0.01 (as indicated on the plot below). That could be perhaps why we're not seeing as many hits in the morphology assay (BMD10 was used)? EPR (recorded @ 24 hpf) on the other hand, is picking up more of these volatile chemicals. 
 
-![flowchart](https://github.com/pthunga/PFAS-analysis/blob/main/volatility.JPG)
+![flowchart](https://github.com/pthunga/PFAS-analysis/blob/main/results/images/volatility.JPG)
 
  ### Breaking down chemical hits calls by chemotypes
   
@@ -51,7 +51,7 @@ Now within one rectangle, say Morph bioactivity BMD10, red = number of hits carr
 
 The Red dotted line within each sub figure plots the total number of hits for that endpoints. For instance, 34 for Morph bioactivity. Since the x axis is set to 140 (which is roughly the total number of PFAS we have), the area to the left side of the red line = Hits & area to the right side = # of non- hits. Think of CX_halide and bond.X as a "control" of sorts (all PFAs carry this chemotype)
 
-![flowchart](https://github.com/pthunga/PFAS-analysis/blob/main/chemotype.JPG)
+![flowchart](https://github.com/pthunga/PFAS-analysis/blob/main/results/images/chemotype.JPG)
 
 ```
 Example interpretation: 
@@ -70,5 +70,5 @@ Example interpretation:
 
 (figure uses old behavior data)
 
-![flowchart](https://github.com/pthunga/PFAS-analysis/blob/main/morph_heatmap.JPG)
+![flowchart](https://github.com/pthunga/PFAS-analysis/blob/main/results/images/morph_heatmap.JPG)
 
