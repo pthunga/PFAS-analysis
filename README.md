@@ -26,7 +26,7 @@ BMD analysis for behavior done using BMDExpress. Sample curvefit for LPR:
 
 ![flowchart](https://github.com/pthunga/PFAS-analysis/blob/main/curvefit-bmd.JPG)
 
-Full list of EPR and LPR hits is present in https://github.com/pthunga/PFAS-analysis/blob/main/results/epr_BMD.csv
+Full list of [EPR](https://github.com/pthunga/PFAS-analysis/blob/main/results/epr_BMD.csv) and [LPR](https://github.com/pthunga/PFAS-analysis/blob/main/results/lpr_BMD.csv) hits is under results (https://github.com/pthunga/PFAS-analysis/blob/main/results)
 
 ### Effect of volatility on chemical hit calls
 
