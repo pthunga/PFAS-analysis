@@ -20,7 +20,7 @@ Full list of [EPR](https://github.com/pthunga/PFAS-analysis/blob/main/results/ep
 
 BMD10 values for morphology can be found [here](https://github.com/pthunga/PFAS-analysis/blob/main/results/consolidated_new.csv).
 
-![flowchart](https://github.com/pthunga/PFAS-analysis/blob/main/global_heatmap.png)
+![flowchart](https://github.com/pthunga/PFAS-analysis/blob/main/results/images/global_heatmap.png)
 
 <adjust above figure to include direction of activity + clustering info >  
 
