@@ -18,7 +18,7 @@ The following figure plots POD of compounds that were active in atleast one of a
 
 Full list of [EPR](https://github.com/pthunga/PFAS-analysis/blob/main/results/epr.csv) and [LPR](https://github.com/pthunga/PFAS-analysis/blob/main/results/lpr.csv) hits made using LEL is present under the results tab (https://github.com/pthunga/PFAS-analysis/blob/main/results)
 
-
+BMD10 values for morphology can be found [here](https://github.com/pthunga/PFAS-analysis/blob/main/results/consolidated_new.csv)
 
 ![flowchart](https://github.com/pthunga/PFAS-analysis/blob/main/global_heatmap.png)
 
