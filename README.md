@@ -22,7 +22,7 @@ Full list of [EPR](https://github.com/pthunga/PFAS-analysis/blob/main/results/ep
 
 ![flowchart](https://github.com/pthunga/PFAS-analysis/blob/main/global_heatmap.png)
 
-<once David completes chemical clustering, adjust above figure>  
+<adjust above figure to include direction of activity + clustering info >  
 
 
 ### Fitting curves to behavioral data
