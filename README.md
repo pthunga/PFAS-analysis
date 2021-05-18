@@ -62,7 +62,7 @@ Sample curvefit for LPR:
 
 ### Heatmap of chemicals active in morphology with a BMR50
 
-(old behavior data was plotted)
+(figure uses old behavior data)
 
 ![flowchart](https://github.com/pthunga/PFAS-analysis/blob/main/morph_heatmap.JPG)
 
