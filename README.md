@@ -14,6 +14,10 @@
 
 ## Heatmap of bioactive chemicals
 
+LEL was used to obtain POD for 24 hpf and 120 hpf behavior.
+BMD was used to obtain POD for 120 hpf morphology.
+
+
 ![flowchart](https://github.com/pthunga/PFAS-analysis/blob/main/global_heatmap.png)
 
 
