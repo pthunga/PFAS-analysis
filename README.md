@@ -26,6 +26,8 @@ BMD analysis for behavior done using BMDExpress. Sample curvefit for LPR:
 
 ![flowchart](https://github.com/pthunga/PFAS-analysis/blob/main/curvefit-bmd.JPG)
 
+Full list of EPR and LPR hits is present in https://github.com/pthunga/PFAS-analysis/blob/main/results
+
 ### Effect of volatility on chemical hit calls
 
 Carried out fisher exact test to assess whether there is a significant difference in counts of volatile chemicals across endpoints. Red and blue represent volatile vs non-volatile chemicals in a given endpoint.
