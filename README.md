@@ -11,6 +11,13 @@
 > Path to processed files on local machine: C:/Users/pthunga/Documents/PhD/PFAS data/results/gui  
 > All the code:  C:/Users/pthunga/Documents/PhD/PFAS data/code
 
+
+## Heatmap of bioactive chemicals
+
+![flowchart](https://github.com/pthunga/PFAS-analysis/blob/main/global_heatmap.JPG)
+
+
+
 ### Effect of volatility on chemical hit calls
 
 Carried out fisher exact test to assess whether there is a significant difference in counts of volatile chemicals across endpoints. Red and blue represent volatile vs non-volatile chemicals in a given endpoint.
