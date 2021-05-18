@@ -20,6 +20,11 @@ For the following figure, POD was estimated using LEL for 24 hpf and 120 hpf beh
 ![flowchart](https://github.com/pthunga/PFAS-analysis/blob/main/global_heatmap.png)
 
 
+### Fitting curves to behavioral data
+
+BMD analysis for behavior done using BMDExpress. Sample curvefit for LPR: 
+
+![flowchart](https://github.com/pthunga/PFAS-analysis/blob/main/curvefit-bmd.JPG)
 
 ### Effect of volatility on chemical hit calls
 
@@ -53,12 +58,6 @@ Example interpretation:
      on the left side of dotted line i.e (~ 2/34) , vs the dark blue region to the area on the right side of the dotted 
      line (~ 48/105) 
 ``` 
-
-### Fitting curves to behavioral data
-
-Sample curvefit for LPR: 
-
-![flowchart](https://github.com/pthunga/PFAS-analysis/blob/main/curvefit-bmd.JPG)
 
 ### Heatmap of chemicals active in morphology with a BMR50
 
