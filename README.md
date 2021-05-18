@@ -12,7 +12,7 @@
 > All the code:  C:/Users/pthunga/Documents/PhD/PFAS data/code
 
 
-## Heatmap of bioactive chemicals
+### Heatmap of bioactive chemicals
 
 For the following figure, POD was estimated using LEL for 24 hpf and 120 hpf behavior, and BMD for 120 hpf morphology.
 
