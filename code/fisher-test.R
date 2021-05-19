@@ -1,17 +1,19 @@
 # library
 library(ggplot2)
+library(tidyverse)
+library(dplyr)
+library(stats)
 
-# create a dataset
-specie <- c(rep("sorgho" , 3) , rep("poacee" , 3) , rep("banana" , 3) , rep("triticum" , 3) )
-condition <- rep(c("normal" , "stress" , "Nitrogen") , 4)
-value <- abs(rnorm(12 , 0 , 15))
-data <- data.frame(specie,condition,value)
+#Load modified consolidated file that has new LELs for EPR and LPR 
+c = read.csv("C:/Users/pthunga/Documents/PhD/PFAS data/results/new data/consolidated_new.csv", row.names = 1)
+#remove EPR. LEL and LPR.LEL and recalculate these values
+c = c[,-c(33,34)]
+#Find to find min of 3 cols in R
+find.min = function(x) ifelse( !all(is.na(x)), min(x, na.rm=T), NA)
+#fund min of B,E and R and store as EPR.LEL + repeat for LPR
+c$EPR.LEL = apply(c[,c(34,35,36)], 1, find.min)
+c$LPR.LEL = apply(c[,c(37,38)], 1, find.min)
 
-# Stacked
-ggplot(data, aes(fill=condition, y=value, x=specie)) + 
-  geom_bar(position="stack", stat="identity")
-
-c = read.csv("C:/Users/pthunga/Documents/PhD/PFAS data/rawdata/consolidated.csv")
 c$M = NULL
 c$M[is.na(c$Morph.BMD10)] = "Not detected"
 c$M[!(is.na(c$Morph.BMD10))] = "Detected"
@@ -24,11 +26,11 @@ c$LPR= NULL
 c$LPR[is.na(c$LPR.LEL)] = "Not detected"
 c$LPR[!(is.na(c$LPR.LEL))] = "Detected"
 
-c =c[,c(1,35:38)]
+c =c[,c(1,33,40:42)] #Keep ccols hemical_id, volatility and M, EPR, LPR
 colnames(c)[2] = "property"
 
 library(reshape2)
-m1 = table ( c$property, c$M )
+m1 = table( c$property, c$M )
 m = setNames(melt(m1), c('property', 'activity', 'Count'))
 m$assay = "Morphology (BMD)"
 
@@ -60,23 +62,56 @@ bp = ggplot(data=m, aes(x=activity, y= Count, fill=property, color = property)) 
        #legend.position="none",
         axis.text.x = element_text(angle = 45,  hjust=1)) 
 
-ggsave("C:/Users/pthunga/Documents/PhD/PFAS data/results/R/endpoint-counts.jpeg",plot=bp, units="cm", width=18.15, height=9.55, dpi=300)
 
+ggsave("C:/Users/pthunga/Documents/PhD/PFAS data/results/new data/endpoint-counts.jpeg",plot=bp, units="cm", width=18.15, height=9.55, dpi=300)
+#old fig path C:/Users/pthunga/Documents/PhD/PFAS data/results/R/endpoint-counts.jpeg
 ################################################################
-c = read.csv("C:/Users/pthunga/Documents/PhD/PFAS data/rawdata/consolidated.csv")
+c = read.csv("C:/Users/pthunga/Documents/PhD/PFAS data/results/new data/consolidated_new.csv")
+#remove EPR. LEL and LPR.LEL and recalculate these values
+c = c[,-c(33,34)]
+#Find to find min of 3 cols in R
+find.min = function(x) ifelse( !all(is.na(x)), min(x, na.rm=T), NA)
+#fund min of B,E and R and store as EPR.LEL + repeat for LPR
+c$EPR.LEL = apply(c[,c(34,35,36)], 1, find.min)
+c$LPR.LEL = apply(c[,c(37,38)], 1, find.min)
+
 ftest = matrix(nrow = 2,ncol = 2)
-l.v = (c[!(is.na(c$LPR.LEL)) & c$Volatile == "Volatile",])
-l.nv = (c[!(is.na(c$LPR.LEL)) & c$Volatile == "Non-Volatile",])
+### FTEST FOR EPR
+l.v = (c[!(is.na(c$EPR.LEL)) & c$Volatile == "Volatile",])
+l.nv = (c[!(is.na(c$EPR.LEL)) & c$Volatile == "Non-Volatile",])
 
-nl.v = (c[(is.na(c$LPR.LEL)) & c$Volatile == "Volatile",])
-nl.nv = (c[(is.na(c$LPR.LEL)) & c$Volatile == "Non-Volatile",])
+nl.v = (c[(is.na(c$EPR.LEL)) & c$Volatile == "Volatile",])
+nl.nv = (c[(is.na(c$EPR.LEL)) & c$Volatile == "Non-Volatile",])
 
 
+ftest[1,1] = nrow(l.v)
+ftest[1,2] = nrow(l.nv)
+ftest[2,1] = nrow(nl.v)
+ftest[2,2] = nrow(nl.nv)
+fisher.test(ftest)
+
+
+### FTEST FOR MORPH
 l.v = (c[!(is.na(c$Morph.BMD10)) & c$Volatile == "Volatile",])
 l.nv = (c[!(is.na(c$Morph.BMD10)) & c$Volatile == "Non-Volatile",])
 
 nl.v = (c[(is.na(c$Morph.BMD10)) & c$Volatile == "Volatile",])
 nl.nv = (c[(is.na(c$Morph.BMD10)) & c$Volatile == "Non-Volatile",])
+
+
+ftest[1,1] = nrow(l.v)
+ftest[1,2] = nrow(l.nv)
+ftest[2,1] = nrow(nl.v)
+ftest[2,2] = nrow(nl.nv)
+fisher.test(ftest)
+
+
+### FTEST FOR LPR
+l.v = (c[!(is.na(c$LPR.LEL)) & c$Volatile == "Volatile",])
+l.nv = (c[!(is.na(c$LPR.LEL)) & c$Volatile == "Non-Volatile",])
+
+nl.v = (c[(is.na(c$LPR.LEL)) & c$Volatile == "Volatile",])
+nl.nv = (c[(is.na(c$LPR.LEL)) & c$Volatile == "Non-Volatile",])
 
 
 ftest[1,1] = nrow(l.v)
