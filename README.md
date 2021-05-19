@@ -51,7 +51,7 @@ Now within one rectangle, say Morph bioactivity BMD10, red = number of hits carr
 
 The Red dotted line within each sub figure plots the total number of hits for that endpoints. For instance, 34 for Morph bioactivity. Since the x axis is set to 140 (which is roughly the total number of PFAS we have), the area to the left side of the red line = Hits & area to the right side = # of non- hits. Think of CX_halide and bond.X as a "control" of sorts (all PFAs carry this chemotype)
 
-![flowchart](https://github.com/pthunga/PFAS-analysis/blob/main/results/images/chemotype.JPG)
+![flowchart](https://github.com/pthunga/PFAS-analysis/blob/main/results/images/chemotype-new.JPG)
 
 ```
 Example interpretation: 
