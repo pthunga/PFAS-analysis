@@ -37,9 +37,9 @@ Full list of [EPR](https://github.com/pthunga/PFAS-analysis/blob/main/results/ep
 
 Carried out fisher exact test to assess whether there is a significant difference in counts of volatile chemicals across endpoints. Red and blue represent volatile vs non-volatile chemicals in a given endpoint.
 
-For morphology, fisher exact test p-val = 0.01 (as indicated on the plot below). That could be perhaps why we're not seeing as many hits in the morphology assay (BMD10 was used)? EPR (recorded @ 24 hpf) on the other hand, is picking up more of these volatile chemicals. 
+Fisher exact test p-val = 0.01 and 0.02 for 5 dpf morph and LPR assays (as indicated on the plot below). i.e., Several of the chemicals that went undetected in 5 dpf morph and behavioral assay are volatile. This is implying that volatility of the compound under consideration could perhaps be influencing the assay? In conrast, no significant differences are seen in the early behavioral assay.  
 
-![flowchart](https://github.com/pthunga/PFAS-analysis/blob/main/results/images/volatility.JPG)
+![flowchart](https://github.com/pthunga/PFAS-analysis/blob/main/results/images/volatility-new.JPG)
 
  ### Breaking down chemical hits calls by chemotypes
   
