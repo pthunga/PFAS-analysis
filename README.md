@@ -2,9 +2,9 @@
 
 ### Data & Analysis in brief: 
 
-1. 24 hpf and 120 hpf behavior responses + morphology evaluations for ~ 140 PFAs from EPA library
-2. Censored morphology data using the 'ANY_' endpoint
-3. Screened the library for bioactivity using two metrics -  LEL and Benchmark Dose.
+1. 24 hpf and 120 hpf behavior responses + morphology evaluations for 139 PFAs from EPA library
+2. Censored morphology data using 'ANY_' endpoint
+3. Screened the library for bioactivity using Benchmark Dose as a metric (BMR 10).
 4. Fisher exact test to test for associations between volatility status of chemical and bioactivity across endpoints
 5. Chemotype enrichment analysis to test for associations between chemotype and bioactivity across endpoints
 
