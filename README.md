@@ -8,10 +8,6 @@
 4. Fisher exact test to test for associations between volatility status of chemical and bioactivity across endpoints
 5. Chemotype enrichment analysis to test for associations between chemotype and bioactivity across endpoints
 
-> Path to processed files on local machine: C:/Users/pthunga/Documents/PhD/PFAS data/results/gui  
-> All the code:  C:/Users/pthunga/Documents/PhD/PFAS data/code
-
-
 ### Heatmap of bioactive chemicals
 
 The following figure plots POD of compounds that were hits in atleast one of assays. POD was estimated as the Benchmark Dose that elicited 10% change in response. 
