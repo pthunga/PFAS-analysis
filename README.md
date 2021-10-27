@@ -1,5 +1,7 @@
 # Assessing bioactivity of PFAs in zebrafish and effects of physiochemical properties on its activity
 
+The data and results included here are a part of <insert citation to paper here> 
+
 ### Data & Analysis in brief: 
 
 1. 24 hours post fertilization (hpf) and 5 days post fertilization (dpf) behavior responses + morphology evaluations for 139 PFAs from EPA library
