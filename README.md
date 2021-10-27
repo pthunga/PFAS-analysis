@@ -16,21 +16,10 @@
 
 The following figure plots POD of compounds that were hits in atleast one of assays. POD was estimated as the Benchmark Dose that elicited 10% change in response. 
 
-Full list of [hits](https://github.com/pthunga/PFAS-analysis/blob/main/results/final_consolidated.csv) and their BMD values is present under the results tab (https://github.com/pthunga/PFAS-analysis/blob/main/results).
+Full list of [hits](https://github.com/pthunga/PFAS-analysis/blob/main/results/final_consolidated.csv) and their BMD values is present under the [results](https://github.com/pthunga/PFAS-analysis/blob/main/results) tab.
 
 
 ![flowchart](https://github.com/pthunga/PFAS-analysis/blob/main/results/images/global_heatmap_bmd.svg)
-
-<adjust above figure to include direction of activity + clustering info >  
-
-
-### Fitting curves to behavioral data
-
-BMD analysis for behavior done using BMDExpress. Sample curvefit for LPR: 
-
-![flowchart](https://github.com/pthunga/PFAS-analysis/blob/main/results/images/curvefit-bmd.JPG)
-
-Full list of [EPR](https://github.com/pthunga/PFAS-analysis/blob/main/results/epr_BMD.csv) and [LPR](https://github.com/pthunga/PFAS-analysis/blob/main/results/lpr_BMD.csv) hits made using BMD is present under the results tab(https://github.com/pthunga/PFAS-analysis/blob/main/results).
 
 ### Effect of volatility on chemical hit calls
 
