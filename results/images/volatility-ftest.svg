@@ -55,6 +55,8 @@
 <text x='71.48' y='192.65' text-anchor='middle' style='font-size: 7.11px; font-family: Arial;' textLength='24.11px' lengthAdjust='spacingAndGlyphs'>38.71%</text>
 <text x='127.22' y='84.24' text-anchor='middle' style='font-size: 7.11px; font-family: Arial;' textLength='24.11px' lengthAdjust='spacingAndGlyphs'>35.19%</text>
 <text x='127.22' y='154.77' text-anchor='middle' style='font-size: 7.11px; font-family: Arial;' textLength='24.11px' lengthAdjust='spacingAndGlyphs'>64.81%</text>
+<polygon points='43.60,41.21 116.70,41.21 116.61,41.20 116.96,41.19 117.30,41.12 117.62,41.00 117.93,40.82 118.19,40.60 118.43,40.34 118.61,40.05 118.75,39.73 118.83,39.39 118.86,39.05 118.86,39.05 118.86,28.27 118.86,28.27 118.83,27.92 118.75,27.58 118.61,27.26 118.43,26.97 118.19,26.71 117.93,26.49 117.62,26.32 117.30,26.19 116.96,26.12 116.70,26.11 43.60,26.11 43.86,26.12 43.51,26.11 43.16,26.15 42.83,26.25 42.52,26.40 42.23,26.59 41.98,26.83 41.77,27.11 41.61,27.42 41.50,27.75 41.44,28.09 41.44,28.27 41.44,39.05 41.44,38.87 41.44,39.22 41.50,39.56 41.61,39.89 41.77,40.20 41.98,40.48 42.23,40.72 42.52,40.92 42.83,41.07 43.16,41.16 43.51,41.20 ' style='stroke-width: 0.0021; fill: #FFFFFF;' />
+<text x='115.55' y='37.89' text-anchor='end' style='font-size: 11.04px; font-family: Arial;' textLength='70.22px' lengthAdjust='spacingAndGlyphs'>p-value = 0.01</text>
 </g>
 <g clip-path='url(#cpMC4wMHw1MTQuNDl8MC4wMHwyNzAuNzE=)'>
 </g>
@@ -93,6 +95,8 @@
 <text x='199.59' y='197.22' text-anchor='middle' style='font-size: 7.11px; font-family: Arial;' textLength='24.11px' lengthAdjust='spacingAndGlyphs'>45.45%</text>
 <text x='255.33' y='66.61' text-anchor='middle' style='font-size: 7.11px; font-family: Arial;' textLength='24.11px' lengthAdjust='spacingAndGlyphs'>39.84%</text>
 <text x='255.33' y='150.20' text-anchor='middle' style='font-size: 7.11px; font-family: Arial;' textLength='24.11px' lengthAdjust='spacingAndGlyphs'>60.16%</text>
+<polygon points='171.71,41.21 244.81,41.21 244.72,41.20 245.07,41.19 245.41,41.12 245.73,41.00 246.04,40.82 246.30,40.60 246.53,40.34 246.72,40.05 246.86,39.73 246.94,39.39 246.97,39.05 246.97,39.05 246.97,28.27 246.97,28.27 246.94,27.92 246.86,27.58 246.72,27.26 246.53,26.97 246.30,26.71 246.04,26.49 245.73,26.32 245.41,26.19 245.07,26.12 244.81,26.11 171.71,26.11 171.97,26.12 171.62,26.11 171.27,26.15 170.94,26.25 170.63,26.40 170.34,26.59 170.09,26.83 169.88,27.11 169.72,27.42 169.61,27.75 169.55,28.09 169.55,28.27 169.55,39.05 169.55,38.87 169.55,39.22 169.61,39.56 169.72,39.89 169.88,40.20 170.09,40.48 170.34,40.72 170.63,40.92 170.94,41.07 171.27,41.16 171.62,41.20 ' style='stroke-width: 0.0021; fill: #FFFFFF;' />
+<text x='243.66' y='37.89' text-anchor='end' style='font-size: 11.04px; font-family: Arial;' textLength='70.22px' lengthAdjust='spacingAndGlyphs'>p-value = 0.36</text>
 </g>
 <g clip-path='url(#cpMC4wMHw1MTQuNDl8MC4wMHwyNzAuNzE=)'>
 </g>
@@ -131,6 +135,8 @@
 <text x='327.70' y='193.96' text-anchor='middle' style='font-size: 7.11px; font-family: Arial;' textLength='14.23px' lengthAdjust='spacingAndGlyphs'>40%</text>
 <text x='383.44' y='79.02' text-anchor='middle' style='font-size: 7.11px; font-family: Arial;' textLength='24.11px' lengthAdjust='spacingAndGlyphs'>36.84%</text>
 <text x='383.44' y='153.47' text-anchor='middle' style='font-size: 7.11px; font-family: Arial;' textLength='24.11px' lengthAdjust='spacingAndGlyphs'>63.16%</text>
+<polygon points='299.82,41.21 372.92,41.21 372.83,41.20 373.18,41.19 373.52,41.12 373.84,41.00 374.14,40.82 374.41,40.60 374.64,40.34 374.83,40.05 374.97,39.73 375.05,39.39 375.08,39.05 375.08,39.05 375.08,28.27 375.08,28.27 375.05,27.92 374.97,27.58 374.83,27.26 374.64,26.97 374.41,26.71 374.14,26.49 373.84,26.32 373.52,26.19 373.18,26.12 372.92,26.11 299.82,26.11 300.08,26.12 299.73,26.11 299.38,26.15 299.05,26.25 298.74,26.40 298.45,26.59 298.20,26.83 297.99,27.11 297.83,27.42 297.72,27.75 297.66,28.09 297.66,28.27 297.66,39.05 297.66,38.87 297.66,39.22 297.72,39.56 297.83,39.89 297.99,40.20 298.20,40.48 298.45,40.72 298.74,40.92 299.05,41.07 299.38,41.16 299.73,41.20 ' style='stroke-width: 0.0021; fill: #FFFFFF;' />
+<text x='371.77' y='37.89' text-anchor='end' style='font-size: 11.04px; font-family: Arial;' textLength='70.22px' lengthAdjust='spacingAndGlyphs'>p-value = 0.04</text>
 </g>
 <g clip-path='url(#cpMC4wMHw1MTQuNDl8MC4wMHwyNzAuNzE=)'>
 </g>
