@@ -2,7 +2,7 @@
 
 ### Data & Analysis in brief: 
 
-1. 24 hpf and 120 hpf behavior responses + morphology evaluations for 139 PFAs from EPA library
+1. 24 hours post fertilization (hpf) and 5 days post fertilization (dpf) behavior responses + morphology evaluations for 139 PFAs from EPA library
 2. Censored morphology data using 'ANY_' endpoint
 3. Screened the library for bioactivity using Benchmark Dose as a metric (BMR 10).
 4. Fisher exact test to test for associations between volatility status of chemical and bioactivity across endpoints
@@ -25,9 +25,9 @@ Full list of [hits](https://github.com/pthunga/PFAS-analysis/blob/main/results/f
 
 Carried out fisher exact test to assess whether there is a significant difference in counts of volatile chemicals across endpoints. Red and blue represent volatile vs non-volatile chemicals in a given endpoint.
 
-Fisher exact test p-val = 0.01 and 0.02 for 5 dpf morph and LPR assays (as indicated on the plot below). i.e., Several of the chemicals that went undetected in 5 dpf morph and behavioral assay are volatile. This is implying that volatility of the compound under consideration could perhaps be influencing the assay? In contrast, no significant differences are seen in the early behavioral assay.  
+Fisher exact test p-val = 0.01 and 0.04 for 5 dpf morphology and LPR assays (as indicated on the plot below). i.e., Several of the chemicals that went undetected in 5 dpf morph and behavioral assay are volatile. This suggests that the volatility of the compound under consideration could perhaps be influencing the assay? In contrast, no significant differences are seen in the early behavioral assay.  
 
-![flowchart](https://github.com/pthunga/PFAS-analysis/blob/main/results/images/volatility-new.JPG)
+![flowchart](https://github.com/pthunga/PFAS-analysis/blob/main/results/images/volatility-ftest.JPG)
 
  ### Breaking down chemical hits calls by chemotypes
   
