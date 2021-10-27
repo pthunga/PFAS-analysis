@@ -19,7 +19,7 @@ The following figure plots POD of compounds that were hits in atleast one of ass
 Full list of [hits](https://github.com/pthunga/PFAS-analysis/blob/main/results/final_consolidated.csv) and their BMD values is present under the results tab (https://github.com/pthunga/PFAS-analysis/blob/main/results).
 
 
-![flowchart](https://github.com/pthunga/PFAS-analysis/blob/main/results/images/global_new_heatmap.png)
+![flowchart](https://github.com/pthunga/PFAS-analysis/blob/main/results/images/global_heatmap_bmd.svg)
 
 <adjust above figure to include direction of activity + clustering info >  
 
