@@ -25,9 +25,9 @@ Full list of [hits](https://github.com/pthunga/PFAS-analysis/blob/main/results/f
 
 Carried out fisher exact test to assess whether there is a significant difference in counts of volatile chemicals across endpoints. Red and blue represent volatile vs non-volatile chemicals in a given endpoint.
 
-Fisher exact test p-val = 0.01 and 0.04 for 5 dpf morphology and LPR assays (as indicated on the plot below). i.e., Several of the chemicals that went undetected in 5 dpf morph and behavioral assay are volatile. This suggests that the volatility of the compound under consideration could perhaps be influencing the assay? In contrast, no significant differences are seen in the early behavioral assay.  
+Fisher exact test p-val = 0.01 and 0.04 for 5 dpf morphology and LPR assays (as indicated on the plot below). i.e., Several of the chemicals that went undetected in 5 dpf morph and behavioral assay are volatile. This suggests that the volatility of the compound under consideration could perhaps be influencing whether or not the chemical's bioacitivty is detected in the assay. In contrast, no significant differences are seen in the early time point behavioral assay.  
 
-![flowchart](https://github.com/pthunga/PFAS-analysis/blob/main/results/images/volatility-ftest.JPG)
+![flowchart](https://github.com/pthunga/PFAS-analysis/blob/main/results/images/volatility-ftest.svg)
 
  ### Breaking down chemical hits calls by chemotypes
   
