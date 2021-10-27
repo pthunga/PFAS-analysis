@@ -33,6 +33,6 @@ Fisher exact test p-val = 0.01 and 0.04 for 5 dpf morphology and LPR assays (as 
   
 The vertical axis represents 19 broad chemotype-categories obtained by collapsing Toxprint chemotype information downloaded from EPA’s Chemistry Dashboard.  The horizontal axis represents the number of compounds carrying that chemotype. Each rectangular section represents bioactivity in the indicated assay (Morphology, EPR and LPR). Teal fill represents the compounds that carried a certain chemotype and induced bioactivity in a specific, whereas grey indicates compounds that did not induce bioactivity but carried that chemotype. Chemotypes that were statistically enriched (fisher exact test p-value <0.05) among hits or non-hits are shown in darker shades. The vertical red dotted line indicates the total number of compounds that induced a hit within each assay.
 
-![flowchart](https://github.com/pthunga/PFAS-analysis/blob/main/results/images/chemotypePlott-BMDhits.svg)
+![flowchart](https://github.com/pthunga/PFAS-analysis/blob/main/results/images/chemotypePlot-BMDhits.svg)
 
 
