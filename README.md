@@ -31,32 +31,8 @@ Fisher exact test p-val = 0.01 and 0.04 for 5 dpf morphology and LPR assays (as 
 
  ### Breaking down chemical hits calls by chemotypes
   
-X axis represents the 36 condensed chemotypes (collapsed from Toxprints_PFAS_clean.csv) and Y represents number of compounds with carrying that chemotype. Full Toxprints were downloaded from EPA Chem dashboard. Red and blue represent hits and non-hits in a given endpoint.
-
-Each of the 3 rectangles represent one endpoint as indicated in header
-
-Now within one rectangle, say Morph bioactivity BMD10, red = number of hits carrying that chemotype and blue represents number of non-hits carrying that chemotype. A darker shade indicates that the difference in counts between hits on non-hits for that chemotype is statistically enriched.
-
-The Red dotted line within each sub figure plots the total number of hits for that endpoints. For instance, 34 for Morph bioactivity. Since the x axis is set to 140 (which is roughly the total number of PFAS we have), the area to the left side of the red line = Hits & area to the right side = # of non- hits. Think of CX_halide and bond.X as a "control" of sorts (all PFAs carry this chemotype)
+The vertical axis represents 19 broad chemotype-categories obtained by collapsing Toxprint chemotype information downloaded from EPA’s Chemistry Dashboard.  The horizontal axis represents the number of compounds carrying that chemotype. Each rectangular section represents bioactivity in the indicated assay (Morphology, EPR and LPR). Teal fill represents the compounds that carried a certain chemotype and induced bioactivity in a specific, whereas grey indicates compounds that did not induce bioactivity but carried that chemotype. Chemotypes that were statistically enriched (fisher exact test p-value <0.05) among hits or non-hits are shown in darker shades. The vertical red dotted line indicates the total number of compounds that induced a hit within each assay.
 
 ![flowchart](https://github.com/pthunga/PFAS-analysis/blob/main/results/images/chemotype-new.jpeg)
 
-```
-Example interpretation: 
-
-  1. bond S.O: The proportion of chemotypes having S.O among morph hits is statistically higher than the proportion of non-hits carrying 
-     that chemotype. We can ballpark this by comparing the proportion of dark red region to the area on the left side of dotted
-     line i.e (~ 12/30) , vs the dark blue region to the area on the right side of the dotted line (~20/109) 
-
-  2. chain.alkaneLinear: The proportion of chemotypes having “chain.alkaneLinear” among non-hits in LPR is statistically higher than the proportion
-     of LPR hits carrying that chemotype. Again, we can ballpark this by comparing the proportion of dark red region to the area
-     on the left side of dotted line i.e (~ 2/34) , vs the dark blue region to the area on the right side of the dotted 
-     line (~ 48/105) 
-``` 
-
-### Heatmap of chemicals active in morphology with a BMR50
-
-(figure uses old behavior data)
-
-![flowchart](https://github.com/pthunga/PFAS-analysis/blob/main/results/images/morph_heatmap.JPG)
 
