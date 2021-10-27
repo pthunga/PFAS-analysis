@@ -14,7 +14,7 @@ The data and results included here are a part of *insert citation to paper here*
 
 The following figure plots POD of compounds that were hits in atleast one of assays. POD was estimated as the Benchmark Dose that elicited 10% change in response. 
 
-Full list of [hits](https://github.com/pthunga/PFAS-analysis/blob/main/results/final_consolidated.csv) and their BMD values is present under the [results](https://github.com/pthunga/PFAS-analysis/blob/main/results) tab. The BMD curve fits for all chemicals can be downloaded from the [curve fits](https://github.com/pthunga/PFAS-analysis/blob/main/results) section under results. The green vertical line line represents BMD10 values and pink line represents ED50 (BMR 50). 
+Full list of [hits](https://github.com/pthunga/PFAS-analysis/blob/main/results/final_consolidated.csv) and their BMD values is present under the [results](https://github.com/pthunga/PFAS-analysis/blob/main/results) tab. The BMD curve fits for all chemicals can be downloaded from the [curve fits](https://github.com/pthunga/PFAS-analysis/blob/main/results/curveFits) section under results. The green vertical line line represents BMD10 values and pink line represents ED50 (BMR 50). 
 
 
 ![flowchart](https://github.com/pthunga/PFAS-analysis/blob/main/results/images/global_heatmap_bmd.svg)
