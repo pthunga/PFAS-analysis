@@ -1,4 +1,4 @@
-# Assessing bioactivity of PFAs in zebrafish and effects of physiochemical properties on its activity
+# Assessing bioactivity of PFAS in zebrafish and effects of physiochemical properties on its activity
 
 The data and results included here are a part of *insert citation to paper here* 
 
